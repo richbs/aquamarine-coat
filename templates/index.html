@@ -1,0 +1,11 @@
+<html>
+  
+  <head>
+    
+  </head>
+  <body>
+    {% for pl in playlists %}
+    <li><a href="{{ pl.id }}">{{ pl.name }}</a></li>
+    {% endfor %}
+  </body>
+</html>
